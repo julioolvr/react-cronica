@@ -3,7 +3,7 @@
   "description": "Placa roja para React.JS",
   "author": "Julio Olivera",
   "user": "julioolvr",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "start": "webpack-dev-server",
     "test": "jest",
