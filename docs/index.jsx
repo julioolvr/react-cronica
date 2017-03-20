@@ -8,9 +8,11 @@ import 'purecss/build/pure.css';
 import './main.css';
 import '../style.css';
 
+import PlacaRoja from '../src/PlacaRoja';
+
 // Add your documentation imports here. These are available to
 // React specimen. Do NOT pass React here as Catalog does that.
-const documentationImports = {};
+const documentationImports = { PlacaRoja };
 const title = `${NAME} v${VERSION}`; // eslint-disable-line no-undef
 const project = `${USER}/${NAME}`; // eslint-disable-line no-undef
 const pages = [
@@ -18,6 +20,11 @@ const pages = [
     path: '/',
     title: 'Introduction',
     component: require('../README.md')
+  },
+  {
+    path: '/usage',
+    title: 'Usage',
+    component: require('./PlacaRoja.md')
   }
 ];
 

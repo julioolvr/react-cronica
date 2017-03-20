@@ -1,2 +1,3 @@
-// this should be the entry point to your library
-module.exports = {};
+import PlacaRoja from './PlacaRoja';
+
+module.exports = PlacaRoja;
